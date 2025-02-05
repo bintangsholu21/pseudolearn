@@ -141,10 +141,12 @@ Untuk memberhentikan aplikasi, tekan `Ctrl + C` pada terminal.
 
 4. **Stage dan Commit**
    - Setelah selesai modifikasi/edit project, lakukan stage 
+   
    ![alt text](assets/readme_image/image6.png)
 
    - Pilih file yang akan di commit lalu masukkan pesan commit
-![alt text](assets/readme_image/image7.png)
+   
+   ![alt text](assets/readme_image/image7.png)
 
    - Klik Commit
    
