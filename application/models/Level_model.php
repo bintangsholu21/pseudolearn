@@ -49,7 +49,7 @@ class Level_model extends CI_Model
     public function getListUjian2()
     {
         $id_user = $this->session->userdata('user_id');
-        $query =  $this->db->query("select id_level, nama, image, bts_nilai, (select sum(nilai) from nilai where id_user = ?) as nilai from tb_level ORDER BY nama ASC", $id_user)->result();
+        $query =  $this->db->query("select id_level, nama, image, bts_nilai, (select sum(nilai) from nilai where id_user = ?) as nilai from tb_level", $id_user)->result();
         $data = [];
         //assign array
         foreach ($query as $key => $value) 
