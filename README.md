@@ -105,10 +105,10 @@ composer update
 Pastikan server lokal sudah berjalan (XAMPP/LAMP/MAMP), lalu command terminal di dalam folder `pseudolearn`:
 
 ```bash
-php -S localhost:8000
+php -S localhost:8080
 ```
 
-Buka browser dan ketikkan `localhost:8000` pada address bar.
+Buka browser dan ketikkan `localhost:8080` pada address bar.
 
 ## Memberhentikan Aplikasi
 Untuk memberhentikan aplikasi, tekan `Ctrl + C` pada terminal.
