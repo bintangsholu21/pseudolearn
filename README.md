@@ -43,8 +43,6 @@ composer update
 
    ![alt text](assets/readme_image/image.png)
 
-   <br>
-
    Pilih **MySQL** lalu isi form seperti ini
 
    ``` bash
@@ -54,11 +52,8 @@ composer update
    User : root
    Password :
    ```
-   <br>
-   
-   ![alt text](assets/readme_image/image1.png)
 
-   <br>
+   ![alt text](assets/readme_image/image1.png)
 
 2. **Buat Database Baru**
 
@@ -70,23 +65,15 @@ composer update
 
    ![alt text](assets/readme_image/image3.png)
 
-   <br>
 
 3. **Import Database**
 
    **Download File SQL Database** di folder `db` dengan nama `db_pseudolearnapp_2025.sql`
-
-   <br>
-
    `Klik Kanan` pada **pseudolearnapp** lalu pilih **Open Database** lalu `Klik Kanan` pada **pseudolearnapp** lalu pilih **Execute SQL File**
 
    ![alt text](assets/readme_image/image4.png)
 
-   <br>
-
    **lanjutkan dengan memilih file** `db_pseudolearnapp_2025.sql` yang sudah di download tadi lalu **Klik Start**
-
-   <br>
 
 4. **Atur koneksi database di `application/config/database.php`**:
    ```php
@@ -123,6 +110,9 @@ php -S localhost:8000
 
 Buka browser dan ketikkan `localhost:8000` pada address bar.
 
+## Memberhentikan Aplikasi
+Untuk memberhentikan aplikasi, tekan `Ctrl + C` pada terminal.
+
 ## Login
 - **Dosen**
   - *email*: dosen@dosen.com
@@ -152,10 +142,12 @@ Buka browser dan ketikkan `localhost:8000` pada address bar.
 4. **Stage dan Commit**
    - Setelah selesai modifikasi/edit project, lakukan stage 
    ![alt text](assets/readme_image/image6.png)
-   <br>
+
    - Pilih file yang akan di commit lalu masukkan pesan commit
-   ![alt text](assets/readme_image/image7.png)
+![alt text](assets/readme_image/image7.png)
+
    - Klik Commit
+   
 5. **Push ke Repository**
    - Setelah melakukan commit, lakukan push ke repository
    ![alt text](assets/readme_image/image8.png)
